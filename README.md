@@ -56,15 +56,24 @@ Good software isn't built in one pass. It's shaped in layers — you spot a smel
 
 ## Usage
 
-Copy the skill folders into your WorkBuddy skills directory:
+Copy the skill folders into your AI coding tool's skills directory:
 
 ```bash
-cp -r clean-architecture-advisor ~/.workbuddy/skills/
-cp -r gof-architecture-advisor ~/.workbuddy/skills/
-cp -r refactoring-advisor ~/.workbuddy/skills/
+# Replace <skills-dir> with your tool's skills path (see table below)
+cp -r clean-architecture-advisor <skills-dir>/
+cp -r gof-architecture-advisor <skills-dir>/
+cp -r refactoring-advisor <skills-dir>/
 ```
 
-Then invoke them naturally in conversation — WorkBuddy will load the right skill based on your intent.
+| Tool | Skills Directory |
+|------|-----------------|
+| WorkBuddy | `~/.workbuddy/skills/` |
+| Claude Code | `~/.claude/skills/` |
+| OpenClaw | `~/.openclaw/skills/` |
+| Cursor | `~/.cursor/skills/` |
+| Continue (VS Code) | `~/.continue/skills/` |
+
+Then invoke them naturally in conversation — your AI coding tool will load the right skill based on your intent.
 
 ---
 
