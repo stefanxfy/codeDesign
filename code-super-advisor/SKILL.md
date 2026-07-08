@@ -42,7 +42,7 @@ description: "代码设计超级顾问 — 编排 refactoring-advisor、gof-arch
 
 #### 1. 系统层 — clean-architecture-advisor
 
-读取 `~/.workbuddy/skills/clean-architecture-advisor/references/` 下的参考文件：
+激活 `clean-architecture-advisor` skill，参考其 `references/` 下的文件：
 
 | 模式 | 关注点 |
 |------|--------|
@@ -57,7 +57,7 @@ description: "代码设计超级顾问 — 编排 refactoring-advisor、gof-arch
 
 #### 2. 模式层 — gof-architecture-advisor
 
-读取 `~/.workbuddy/skills/gof-architecture-advisor/references/` 下的参考文件：
+激活 `gof-architecture-advisor` skill，参考其 `references/` 下的文件：
 
 | 模式 | 关注点 |
 |------|--------|
@@ -74,7 +74,7 @@ description: "代码设计超级顾问 — 编排 refactoring-advisor、gof-arch
 
 #### 3. 代码层 — refactoring-advisor
 
-读取 `~/.workbuddy/skills/refactoring-advisor/references/` 下的参考文件：
+激活 `refactoring-advisor` skill，参考其 `references/` 下的文件：
 
 | 模式 | 关注点 |
 |------|--------|
