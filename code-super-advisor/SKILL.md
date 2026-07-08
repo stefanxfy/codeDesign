@@ -42,7 +42,7 @@ description: "代码设计超级顾问 — 编排 refactoring-advisor、gof-arch
 
 #### 1. 系统层 — clean-architecture-advisor
 
-激活 `clean-architecture-advisor` skill，参考其 `references/` 下的文件：
+激活 `clean-architecture-advisor` skill：
 
 | 模式 | 关注点 |
 |------|--------|
@@ -50,14 +50,9 @@ description: "代码设计超级顾问 — 编排 refactoring-advisor、gof-arch
 | 审查方案 | 架构设计是否合理？边界划分是否恰当？策略层次是否正确？是否过度设计？ |
 | 辅助设计 | 如何划分组件？如何画边界？依赖规则如何落地？部署模式如何选择？ |
 
-参考文件：
-- `clean_architecture_principles.md` — 核心原则（依赖规则、尖叫的架构、保留可选项、测试边界等）
-- `component_principles.md` — 组件聚合/耦合原则（REP/CCP/CRP/ADP/SDP/SAP + 主序列量化）
-- `architecture_patterns.md` — 边界形态、解耦模式、服务组件化、打包方式对比
-
 #### 2. 模式层 — gof-architecture-advisor
 
-激活 `gof-architecture-advisor` skill，参考其 `references/` 下的文件：
+激活 `gof-architecture-advisor` skill：
 
 | 模式 | 关注点 |
 |------|--------|
@@ -65,29 +60,15 @@ description: "代码设计超级顾问 — 编排 refactoring-advisor、gof-arch
 | 审查方案 | 模式选择是否恰当？是否过度设计？类职责划分是否合理？ |
 | 辅助设计 | 推荐哪些设计模式？类关系如何组织？SOLID 如何落地？ |
 
-参考文件：
-- `gof_patterns_catalog.md` — 23 种设计模式目录（含实务推荐）
-- `solid_principles.md` — SOLID 原则 + 迪米特法则
-- `design_heuristics.md` — 设计启发法 + 重构指导
-- `design_philosophy.md` — 过度设计警告 + 分寸感
-- `oop_basics.md` — OOP 基础
-
 #### 3. 代码层 — refactoring-advisor
 
-激活 `refactoring-advisor` skill，参考其 `references/` 下的文件：
+激活 `refactoring-advisor` skill：
 
 | 模式 | 关注点 |
 |------|--------|
 | 审查代码 | 22 种坏味道诊断 → 重构手法推荐 → 优先级排序 |
 | 审查方案 | 预判可能的坏味道（过长函数？过大类？数据泥团？）→ 可维护性预评估 |
 | 辅助设计 | 代码结构建议（如何避免常见坏味道？推荐什么代码组织方式？） |
-
-参考文件：
-- `bad_smells.md` — 22 种坏味道诊断指南
-- `refactoring_catalog.md` — 72 种重构手法目录 + 决策树
-- `refactoring_methodology.md` — 重构方法论
-- `refactoring_example.md` — Movie Rental 完整示例
-- `skill_coordination.md` — 三 skill 协同指南
 
 ### 第三步：汇总输出
 
